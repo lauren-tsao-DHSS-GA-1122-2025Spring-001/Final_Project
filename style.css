@@ -26,7 +26,7 @@
   margin: 0px 10px;
 }
 
-.year-2017 > *:nth-child(odd):not(:nth-child(7)) {
+.year-2017 > *:nth-child(odd):not(:nth-child(1)) {
   box-sizing: border-box;
   width: 10vw;
   height: 10vw;
@@ -37,7 +37,7 @@
   border-radius: 20px;
 }
 
-.year-2018 > *:nth-child(odd):not(:nth-child(3)) {
+.year-2018 > *:nth-child(odd):not(:nth-child(5)) {
   box-sizing: border-box;
   width: 10vw;
   height: 10vw;
@@ -71,19 +71,19 @@
 ~ is called the General Sibling Combinator, it targets all siblings that come after the specified element, not just the immediately next one.
 */
 
-.year-2017 > *:nth-child(odd):hover + *:nth-child(even):not(:nth-child(8)) {
+.year-2017 > *:nth-child(odd):hover + *:nth-child(even):not(:nth-child(2)) {
   text-wrap: wrap;
   padding: 10px;
-  width: 20vw;
+  width: 8vw;
   height: 10vw;
   font-size: 12px;
   transition: 100ms all ease-in-out;
 }
 
-.year-2018 > *:nth-child(odd):hover + *:nth-child(even):not(:nth-child(4)) {
+.year-2018 > *:nth-child(odd):hover + *:nth-child(even):not(:nth-child(6)) {
   text-wrap: wrap;
   padding: 10px;
-  width: 20vw;
+  width: 8vw;
   height: 10vw;
   font-size: 12px;
   transition: 100ms all ease-in-out;
