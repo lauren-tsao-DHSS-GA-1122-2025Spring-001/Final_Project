@@ -46,40 +46,19 @@
   margin: 0px 10px;
 }
 
-.year-2017 > *:nth-child(odd):not(:nth-child(1)) {
-  box-sizing: border-box;
-  border: 1px solid black;
+img {
   width: 10vw;
-  height: 10vw;
-  background-color: darkgray;
-  padding: 20px;
-  font-size: 30px;
-  text-align: center;
-  border-radius: 20px;
+  border-radius: 1vw;
 }
 
-.year-2018 > *:nth-child(odd):not(:nth-child(5)):not(:nth-child(9)) {
-  box-sizing: border-box;
-  width: 10vw;
-  border: 1px solid black;
-  height: 10vw;
-  background-color: darkgray;
-  padding: 20px;
-  font-size: 30px;
-  text-align: center;
-  border-radius: 20px;
-}
-
-.year-2023 > *:nth-child(odd):not(:nth-child(5)):not(:nth-child(11)) {
+.GIF-container {
   box-sizing: border-box;
   border: 1px solid black;
   width: 10vw;
   height: 10vw;
-  background-color: darkgray;
-  padding: 20px;
-  font-size: 30px;
   text-align: center;
-  border-radius: 20px;
+  border-radius: 1vw;
+  overflow: hidden;
 }
 
 .year-name {
@@ -99,38 +78,14 @@
   width: 20vw;
   height: 10vw;
   transition: 100ms all ease-in-out;
-  border-radius: 20px;
+  border-radius: 1vw;
 }
 
-/* Expand the even child when its preceding odd child is hovered. 
-
-+ is called the Adjacent Sibling Selector. it targets the element immediately following the specified element
-
-~ is called the General Sibling Combinator, it targets all siblings that come after the specified element, not just the immediately next one.
-*/
-
-
-.year-2017 > *:nth-child(odd):not(:nth-child(1)):hover {
+.GIF-container:hover {
   border: solid black;
   border-width: 0 5px 5px 0;
-  font-size: 12px;
   transition: 100ms all ease-in-out;
 }
-
-.year-2018 > *:nth-child(odd):not(:nth-child(5)):not(:nth-child(9)):hover {
-  border: solid black;
-  border-width: 0 5px 5px 0;
-  font-size: 12px;
-  transition: 100ms all ease-in-out;
-}
-
-.year-2023 > *:nth-child(odd):not(:nth-child(5)):not(:nth-child(11)):hover {
-  border: solid black;
-  border-width: 0 5px 5px 0;
-  font-size: 12px;
-  transition: 100ms all ease-in-out;
-}
-
 
 
 /* expand the even child when its preceding odd child is hovered. 
