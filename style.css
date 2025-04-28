@@ -55,6 +55,7 @@ h2 {
   z-index: 4;
 }
 
+/* arrow designs */
 .year-2017 > *:nth-child(even), .year-2020 > *:nth-child(even){
   box-sizing: border-box;
   font-family: monospace;
@@ -81,6 +82,7 @@ h2 {
   margin: 0px 10px;
 }
 
+/* individual HTML id : javascript id = one-text : oneText, two-text : twoText, (...) six-text : sixText */
 .year-name {
   text-shadow:
   -1px -1px 0 #fff,
@@ -108,6 +110,7 @@ img {
   border-radius: 1vw;
 }
 
+/* individual HTML id : javascript variable = one-GIF : oneGIF, two-GIF : twoGIF, (...) six-GIF : sixGIF */
 .GIF-container {
   font-family: monospace;
   position: relative;
@@ -120,6 +123,7 @@ img {
   z-index: 3;
 }
 
+/* flip card effect (credit: https://codepen.io/ananyaneogi/pen/Ezmyeb) */
 .to-flip {
   border-radius: 1vw;
   position: relative;
@@ -164,13 +168,12 @@ img {
 }
 
 
-/* expand the even child when its preceding odd child is hovered. 
-
-+ is called the Adjacent Sibling Selector. it targets the element immediately following the specified element
-
-~ is called the General Sibling Combinator, it targets all siblings that come after the specified element, not just the immediately next one.
+/* NOTES:
+'+' : Adjacent Sibling Selector = targets the element immediately following the specified element
+'~' : General Sibling Combinator = targets all siblings that come AFTER the specified element, not just the immediate next one
 */
 
+/* expand the even child when its preceding odd child is hovered over EXCLUDING the even children that is the year-name*/
 .year-2017 > *:nth-child(odd):hover + *:nth-child(even):not(:nth-child(2)) {
   background-color: white;
   border-radius: 20px;
