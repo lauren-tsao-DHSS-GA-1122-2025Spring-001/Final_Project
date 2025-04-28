@@ -1,6 +1,6 @@
-# Project 02 : Digital Translation
+# Project 03 : Final Project
 
-## Deliverables (to update)
+## Deliverables
 
 - Link to website: Please click [here](https://lauren-tsao-dhss-ga-1122-2025spring-001.github.io/Final_Project/)
 - Link to reflection: Please click [here](https://drive.google.com/file/d/15YXtUr_F7MKPHCxa7oRUjNoaxZVqZTOT/view?usp=sharing)
