@@ -2,12 +2,6 @@
   margin: 0px;
 }
 
-.title {
-  position: absolute;
-  font-family: monospace;
-  font-size: 10vw;
-}
-
 .grid {
   box-sizing: border-box;
   display: flex;
@@ -59,10 +53,10 @@ h2 {
 .year-2017 > *:nth-child(even), .year-2020 > *:nth-child(even){
   box-sizing: border-box;
   font-family: monospace;
-  font-size: 0px;
+  font-size: 0%;
   width: 0;
   height: 0;
-  border-left: 20px solid white;
+  border-left: 20px solid black;
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent;
   transition: 100ms all ease-in-out;
@@ -72,10 +66,10 @@ h2 {
 .year-2018 > *:nth-child(even), .year-2023 > *:nth-child(even) {
   box-sizing: border-box;
   font-family: monospace;
-  font-size: 0px;
+  font-size: 0%;
   width: 0;
   height: 0;
-  border-right: 20px solid white;
+  border-right: 20px solid black;
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent;
   transition: 100ms all ease-in-out;
@@ -181,7 +175,7 @@ img {
   padding: 10px;
   width: 8vw;
   height: 10vw;
-  font-size: 12px;
+  font-size: 95%;
   transition: 100ms all ease-in-out;
 }
 
@@ -194,7 +188,7 @@ img {
   padding: 10px;
   width: 8vw;
   height: 10vw;
-  font-size: 12px;
+  font-size: 95%;
   transition: 100ms all ease-in-out;
 }
 
@@ -207,7 +201,7 @@ img {
   padding: 10px;
   width: 8vw;
   height: 10vw;
-  font-size: 12px;
+  font-size: 95%;
   transition: 100ms all ease-in-out;
 }
 
@@ -220,7 +214,7 @@ img {
   padding: 10px;
   width: 8vw;
   height: 10vw;
-  font-size: 12px;
+  font-size: 95%;
   transition: 100ms all ease-in-out;
 }
 
