@@ -2,8 +2,8 @@
 
 ## Deliverables (to update)
 
-- Link to website: Please click [here]()
-- Link to reflection: Please click [here]()
+- Link to website: Please click [here](https://lauren-tsao-dhss-ga-1122-2025spring-001.github.io/Final_Project/)
+- Link to reflection: Please click [here](https://drive.google.com/file/d/15YXtUr_F7MKPHCxa7oRUjNoaxZVqZTOT/view?usp=sharing)
 
 ## Brief
 This final project is all yours. You may continue developing Project 1 or 2, or start something entirely new. Use this as an opportunity to explore an idea you’re excited about, refine an existing prototype, or finally make that personal website. You're welcome to build your project using WordPress, Cargo, Squarespace, or another platform—as long as you insert your own custom code (HTML, CSS, and/or JavaScript) somewhere in the final result.
