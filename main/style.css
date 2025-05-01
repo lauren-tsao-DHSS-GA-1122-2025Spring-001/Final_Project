@@ -2,6 +2,19 @@
   margin: 0px;
 }
 
+/* link custom color*/
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: white;
+  background-color: black;
+  text-decoration: underline;
+}
+
 body {
   overflow: hidden;
 }
