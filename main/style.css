@@ -2,8 +2,14 @@
   margin: 0px;
 }
 
-/* link custom color*/
+/* custom color for links*/
 a:link {
+  color: black;
+  background-color: black;
+  text-decoration: underline;
+}
+
+a:visited {
   color: black;
   background-color: transparent;
   text-decoration: underline;
