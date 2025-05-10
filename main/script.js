@@ -4,7 +4,7 @@ let oneText = document.querySelector("#one-text");
 
 oneGIF.forEach((gifContainer) => { 
   gifContainer.addEventListener("mouseover", () => {
-    oneText.style.color = "darkCyan"; 
+    oneText.style.color = "darkCyan";
   });
 
   gifContainer.addEventListener("mouseout", () => {
