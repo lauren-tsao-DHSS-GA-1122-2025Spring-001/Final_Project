@@ -52,23 +52,23 @@ h2 {
   font-family: monospace;
   position: absolute;
   left: 1vw;
-  top: 10vw;
+  top: 10.4vw;
   font-size: 1vw;
 }
 
-.description {
+.instruction-01 {
   font-family: monospace;
   position: absolute;
   left: 30vw;
-  top: 21.7vw;
+  top: 22.1vw;
   font-size: 1vw;
 }
 
-.instruction {
+.instruction-02 {
   font-family: monospace;
   position: absolute;
   left: 53vw;
-  top: 33.7vw;
+  top: 34.1vw;
   font-size: 1vw;
 }
 
@@ -76,7 +76,7 @@ h2 {
   font-family: monospace;
   position: absolute;
   left: 83.3vw;
-  top: 45.5vw;
+  top: 45.9vw;
   font-size: 1vw;
   z-index: 4;
 }
