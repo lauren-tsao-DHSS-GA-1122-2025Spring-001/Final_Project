@@ -56,19 +56,19 @@ h2 {
   font-size: 1vw;
 }
 
-.instruction {
-  font-family: monospace;
-  position: absolute;
-  left: 53vw;
-  top: 33vw;
-  font-size: 1vw;
-}
-
 .description {
   font-family: monospace;
   position: absolute;
   left: 30vw;
-  top: 21.5vw;
+  top: 21.7vw;
+  font-size: 1vw;
+}
+
+.instruction {
+  font-family: monospace;
+  position: absolute;
+  left: 53vw;
+  top: 33.7vw;
   font-size: 1vw;
 }
 
@@ -76,7 +76,7 @@ h2 {
   font-family: monospace;
   position: absolute;
   left: 83.3vw;
-  top: 44vw;
+  top: 45.5vw;
   font-size: 1vw;
   z-index: 4;
 }
@@ -85,7 +85,7 @@ h2 {
 .year-2017 > *:nth-child(even), .year-2020 > *:nth-child(even){
   box-sizing: border-box;
   font-family: monospace;
-  font-size: 0%;
+  font-size: 0vw;
   width: 0;
   height: 0;
   border-left: 20px solid black;
@@ -98,7 +98,7 @@ h2 {
 .year-2018 > *:nth-child(even), .year-2023 > *:nth-child(even) {
   box-sizing: border-box;
   font-family: monospace;
-  font-size: 0%;
+  font-size: 0vw;
   width: 0;
   height: 0;
   border-right: 20px solid black;
@@ -198,13 +198,18 @@ h2 {
 }
 
 
-/* GIF SCALE ANIMATIONS */
+/* GIF scale-up animations */
 .grid.year-2017 .GIF-container:active {
-  top:50px;
+  transform: scale(2) translateY(1.5vw);
 }
 
-.grid.year-2017 .GIF-container:active {
-  top:50px;
+.grid.year-2018 .GIF-container:active,
+.grid.year-2020 .GIF-container:active {
+  transform: scale(2) translateX(1.5vw);
+}
+
+.grid.year-2023 .GIF-container:active {
+  transform: scale(2) translateY(-2vw) translateX(1.5vw);
 }
 
 .GIF-container:active {
@@ -228,7 +233,7 @@ h2 {
   padding: 10px;
   width: 8vw;
   height: 10vw;
-  font-size: 70%;
+  font-size: 0.6vw;
   transition: 300ms all ease-in-out;
   transition-delay: 200ms;
 }
@@ -242,7 +247,7 @@ h2 {
   padding: 10px;
   width: 8vw;
   height: 10vw;
-  font-size: 70%;
+  font-size: 0.6vw;
   transition: 300ms all ease-in-out;
   transition-delay: 200ms;
 }
@@ -256,7 +261,7 @@ h2 {
   padding: 10px;
   width: 8vw;
   height: 10vw;
-  font-size: 70%;
+  font-size: 0.6vw;
   transition: 300ms all ease-in-out;
   transition-delay: 200ms;
 }
@@ -270,7 +275,7 @@ h2 {
   padding: 10px;
   width: 8vw;
   height: 10vw;
-  font-size: 70%;
+  font-size: 0.6vw;
   transition: 300ms all ease-in-out;
   transition-delay: 200ms;
 }
